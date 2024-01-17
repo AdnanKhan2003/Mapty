@@ -1,0 +1,52 @@
+User Stories:
+1) Log my running workout with location, distance, time, pace and steps/minutes
+2) Log my cycling workout with location, distance, time, speed and elevation gain
+
+Common in both User Stories
+Location, time, distance
+
+Events that will happen from the time from which user loads the page till user exits the browser
+1. Page Load
+2. Receive user position
+3. Click on Map
+4. Change of elevation gain and steps/minutes
+5. Submit
+
+
+
+class Common {
+  constructor(location, distance, time){
+    this.location = location;
+    this.distance = distance;
+    this.time = time;
+  }
+}
+
+
+class App {
+  constructor(workout, map){
+    this.workout = [workout];
+    this.map = map;
+  }
+  _getLocation(){}
+  _displayMap() {}
+  _showForm() {}
+  _toggleElevationField() {}
+  _displayMarker() {}
+}
+
+class running {
+  constructor(name, pace, steps){
+    this.name = name;
+    this.pace = pace;
+    this.steps = steps;
+  }
+}
+
+class cycling {
+  constructor(name, speed, elevationGain){
+    this.name = name;
+    this.speed = speed;
+    this.elevationGain = elevationGain;
+  }
+}

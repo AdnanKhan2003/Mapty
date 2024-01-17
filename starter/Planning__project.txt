@@ -1,0 +1,19 @@
+A. PLANNING
+1. User Stories
+Format: As a [type of user] i want [an action] so that [a benefit]
+
+1. As a user, I want to log my running workout with location, time, distance, speed, pace and steps/minutes so that I can keep log of all my running
+2. As a user, I want to log my cycling workout with location, time, distance, speed, pace and elegation gain so that I can keep log of all my cycing
+3. As a user, I want to log all my workout in the map so that I can see where I workout the most
+4. As a user, I want to see all my workout at a glance so that I can trace my progress over time
+5. As a user, I want all my workout on list and map to saved so that if I close the website and then come again so all my workout is save so that I can use app over time
+
+2. Features
+1. When user click on map, create a location marker on that area of map and also log the user's location, distance, time, speed, etc
+2. When user click on map, save all the above information in the list 
+3.  
+
+3. Flow Chart
+4. Architecture
+
+B. DEVELOPMENT
