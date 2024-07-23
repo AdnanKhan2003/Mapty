@@ -10,5 +10,3 @@ Project Features:
 Technical Features:
 1. Data fetching
 2. Mapty API Integration
-
-Recipe application with custom recipe uploads.
