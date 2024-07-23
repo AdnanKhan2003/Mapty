@@ -1,4 +1,4 @@
-# Forkify Project
+# Mapty Project
 
 Live Link: https://mapty-workout-web-app.netlify.app/
 
